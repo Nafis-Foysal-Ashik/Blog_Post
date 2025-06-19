@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { act } from "react";
 
+const initialState = []
+
 const initialSlice ={
     status : false,
     userData : null

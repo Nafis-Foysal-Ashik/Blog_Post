@@ -1,8 +1,7 @@
 import { createAction } from '@reduxjs/toolkit';
-import conf from '../conf.js'
+import conf from '../conf/conf.js';
 import { Client, Account, ID } from "appwrite";
 
-export class AuthService {}
 
 export class AuthService{
     client = new Client();
