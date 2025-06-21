@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const PostForm = ({ post }) => {
   const { register, handleSubmit, watch, setValue, control, getValues } =
-    uerForm({
+    useForm({
       defaultValues: {
         title: post?.title || "",
         slug: post?.slug || "",
